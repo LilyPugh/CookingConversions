@@ -1,0 +1,100 @@
+body {
+     background-image: url("/Users/robandlily/Documents/DevProject/JS Projects/Calculator/Bakingimage1 copy.jpg");
+     padding: 20px 0;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+
+.container {
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+
+.container h1{
+    font-family: 'Raleway Dots', cursive;
+    font-weight: bolder;
+    font-size: 2.5em;
+    padding-top: 30%;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+
+.container p {
+    font-size: 1em;
+    color: black;
+    font-weight: bolder;
+    
+}
+.result {
+    
+    width: 5em;
+    height: 2em;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 2px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-color: darkslategray;
+    color: black;
+    
+    
+    
+}
+
+.row1 {
+    display: block;
+    margin:0 auto;
+    
+    
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.row2 {
+    display: flex;
+    font-size: 1em;
+    padding: 10px 20px;
+    align-items: flex-start;
+    
+    
+    
+}
+
+.row2 label {
+    font-size: 0.8em;
+    padding: 0.1em 1em;
+    
+}
+
+.row2 input {
+    width: 4.5em;
+    height: 2em;
+    border-radius: 10px;
+    border-color: darkslategray;
+   
+}
+
+.row2 select {
+    height: 2em;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: darkslategray;
+    
+}
+
+.btn {
+    width: 7.5em;
+    height: 3em;
+    
+}

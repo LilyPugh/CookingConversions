@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, inital-scale =1">
+        <title>Cooking Measurements Conversions</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="CCMainstyle.css">
+        <script src="cookingConversions.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <script src="cookingConversions.js"></script>
+    </head>
+
+    <body>
+        <div class="container text-center">
+            <h1>Cooking Measurements Conversion Chart</h1>
+            <p>Produced especially for cooking enthusiasts... convert all weight and volume measurements with ease.</p>
+
+            <div class="calc-container">
+                <div class="row1">
+                    <form name="calc">
+                        
+                        <input type="text" id="result" class="result text-center" value="Result" readonly>
+                    </form>
+                </div>
+
+                    
+                    
+                <div class="row2">
+                        <div class="row2">
+                            <label for="OrigMeasure">Original Measurement</label>
+                            <input type="number" id="OrigMeasure" class="OrigMeasure">
+                            
+                        </div>
+                           
+                        <div class="row2">
+                            <label for="Origunit">Original Unit</label>
+                            <select name="Origunit" id="Origunit" >
+                                <option value="cups">Cups</option>
+                                <option value="grams">Grams</option>
+                                <option value="ounces">Ounces</option>
+                            </select>
+                            
+                        </div>
+                        
+                        <div class="row2">
+                            <label for="Requnit">Required Unit</label>
+                            <select name="Requnit" id="Requnit">
+                                <option value="Cups">Cups</option>
+                                <option value="Grams">Grams</option>
+                                <option value="Ounces">Ounces</option>
+                                
+                            </select>
+                        </div>
+                </div>
+
+                <div class="row3">
+                    <button id="calculate" type="button" class="btn btn-dark calculate" onclick="calcButPress()">Calculate</button>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+
+    </body>
+
+</html>
